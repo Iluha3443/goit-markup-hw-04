@@ -128,6 +128,16 @@ body {
   margin: auto;
 }
 .thumbnail {
+  background-size: cover;
+  height: 600px;
+  min-width: 1440px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office.jpg");
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: #2e2f42;
   padding-bottom: 188px;
