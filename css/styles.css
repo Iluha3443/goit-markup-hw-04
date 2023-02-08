@@ -286,12 +286,21 @@ button {
   border-radius: 50%;
 }
 .userpic-item {
-  display: block;
+  display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
+  align-items: center;
 }
 .userpic-list {
+  width: 100%;
+}
+.userpic-item-list:hover,
+.userpic-item-list:focus {
+  background: #404bbf;
+}
+.content-last {
+  margin-top: 110px;
 }
 .thumb {
   text-decoration: none;
@@ -336,16 +345,28 @@ button {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-.icons-list {
   gap: 24px;
 }
-.icons-item {
-  /* width: 100%;
-  height: 100%; */
+.icons-list {
+  display: flex;
   width: 168px;
   height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 120px;
 }
+.icons-item {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+}
+.icons-item-list {
+  fill: #afb1b8;
+}
+
 /* Футер */
 .logo-desc {
   font-family: "Raleway", sans-serif;
