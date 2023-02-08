@@ -300,7 +300,7 @@ button {
   background: #404bbf;
 }
 .content-last {
-  margin-top: 110px;
+  margin-top: 120px;
 }
 .thumb {
   text-decoration: none;
@@ -354,6 +354,16 @@ button {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   margin-bottom: 120px;
+}
+.icons-list:hover,
+.icons-list:focus {
+  fill: #404bbf;
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
+.icons-item-list:hover,
+.icons-item-list:focus {
+  fill: #404bbf;
 }
 .icons-item {
   display: flex;
