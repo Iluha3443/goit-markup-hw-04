@@ -355,17 +355,16 @@ button {
   border-radius: 4px;
   margin-bottom: 120px;
 }
+.icons-item:is(:hover, :focus) .icons-item-list {
+  fill: #404bbf;
+}
+
 .icons-list:hover,
 .icons-list:focus {
   fill: #404bbf;
   border: 1px solid #404bbf;
-  border-radius: 4px;
 }
 
-.icons-item-list:hover,
-.icons-item-list:focus {
-  fill: #404bbf;
-}
 .icons-item {
   display: flex;
   width: 100%;
