@@ -361,6 +361,7 @@ button {
   border: 1px solid #404bbf;
   border-radius: 4px;
 }
+
 .icons-item-list:hover,
 .icons-item-list:focus {
   fill: #404bbf;
@@ -391,7 +392,6 @@ button {
   background-color: #2e2f42;
   text-decoration: none;
   display: inline-block;
-
   margin-bottom: 16px;
 }
 .logo-desc > span {
@@ -405,7 +405,6 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
   margin-bottom: 16px;
 }
 .footer {
@@ -414,6 +413,7 @@ button {
   background-color: #2e2f42;
 }
 .items {
+  /* display: inline-block; */
   color: #e7e9fc;
   background-color: #2e2f42;
   font-size: 16px;
@@ -423,8 +423,47 @@ button {
 
   width: 264px;
 }
+.position {
+  display: flex;
+  align-items: baseline;
+}
 .snippet {
   width: 264px;
+}
+.subtitle-position {
+  margin-left: 269px;
+}
+.subtitle-icon {
+  display: flex;
+  gap: 16px;
+}
+
+.subtitle-list {
+  display: flex;
+  list-style: none;
+  width: 40px;
+  height: 40px;
+}
+.subtitle-item {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+.subtitle {
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.subtitle-item:hover,
+.subtitle-item:focus {
+  background: #31d0aa;
 }
 /* Portfolio */
 
