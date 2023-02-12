@@ -89,10 +89,6 @@ body {
   text-decoration: none;
   color: #434455;
 }
-.address-list-tel {
-  text-decoration: none;
-  color: #434455;
-}
 
 .address-list-item {
   display: flex;
@@ -124,13 +120,12 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.1;
   color: #ffffff;
-  width: 494px;
+  width: 496px;
   margin: auto;
 }
 .thumbnail {
   background-size: cover;
-  height: 600px;
-  min-width: 1440px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -184,13 +179,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #4d5ae5;
-  border-radius: 4px;
   padding: 16px 32px;
   display: inline-block;
   min-width: 169px;
   text-align: center;
   margin-top: 48px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Секция1 */
 .section {
@@ -234,7 +230,7 @@ button {
   margin-bottom: 8px;
 }
 .avatar-icon {
-  width: 60px;
+  width: 64px;
   height: 64px;
 }
 
@@ -255,7 +251,6 @@ button {
 }
 .pic {
   list-style-type: none;
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -264,17 +259,25 @@ button {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   margin-right: 24px;
+  /* text-align: center; */
 }
 .image:last-child {
   margin-right: 0px;
 }
 /* Секция3 */
+.foto {
+  padding: 32px 16px;
+}
+.position-block {
+  display: flex;
+  flex-wrap: wrap;
+}
 .userpic {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
-  margin-bottom: 32px;
+
   gap: 24px;
   justify-content: center;
   align-items: center;
@@ -299,8 +302,10 @@ button {
 .userpic-item-list:focus {
   background: #404bbf;
 }
+
 .content-last {
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 .thumb {
   text-decoration: none;
@@ -312,8 +317,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 
 .desc {
@@ -323,22 +327,20 @@ button {
   list-style-type: none;
   color: #434455;
   margin: 0;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .picture {
   list-style-type: none;
   margin-top: 0;
-
   display: flex;
+  text-align: center;
 }
 .inner {
   padding-bottom: 120px;
   padding-top: 120px;
   background: #f4f4fd;
 }
-.foto {
-  padding: 32px 16px 0px 16px;
-}
+
 /* Секция 4 */
 .icons {
   display: flex;
@@ -353,7 +355,6 @@ button {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  margin-bottom: 120px;
 }
 .icons-item:is(:hover, :focus) .icons-item-list {
   fill: #404bbf;
@@ -374,6 +375,8 @@ button {
   padding: 16px 32px;
 }
 .icons-item-list {
+  width: 104px;
+  height: 56px;
   fill: #afb1b8;
 }
 
@@ -473,6 +476,12 @@ button {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.item-list:hover,
+.item-list:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .item-list:nth-child(3n) {
   margin-right: 0px;
