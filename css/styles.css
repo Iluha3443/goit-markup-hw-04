@@ -187,6 +187,7 @@ button {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 /* Секция1 */
 .section {
@@ -277,7 +278,6 @@ button {
   padding: 0;
   margin: 0;
   list-style: none;
-
   gap: 24px;
   justify-content: center;
   align-items: center;
@@ -317,17 +317,23 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
-
-.desc {
+.headline-desc {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
   color: #434455;
   margin: 0;
-  padding-bottom: 8px;
+}
+.desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style-type: none;
+  color: #434455;
+  margin-bottom: 8px;
 }
 .picture {
   list-style-type: none;
@@ -433,7 +439,7 @@ button {
   width: 264px;
 }
 .subtitle-position {
-  margin-left: 269px;
+  margin-left: 120px;
 }
 .subtitle-icon {
   display: flex;
